@@ -1,3 +1,4 @@
+
 # Using Recipes From Layers
 
 ## Resources
@@ -26,4 +27,8 @@ IMAGE_INSTALL:append = " p7zip"
 Compile the preferred image
 ```bash
 bitbake core-image-full-cmdline
+```
+Flash the image
+```bash
+bzcat ./build/tmp/deploy/images/raspberrypi4/core-image-full-cmdline-raspberrypi4-20250121180827.rootfs.wic.bz2 | sudo dd of=/dev/sdb
 ```
