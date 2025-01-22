@@ -81,3 +81,6 @@ launch.json:
   }
 ```
 
+#### GDB Hints
+
+With `-exec command` it is possible to call gdb commands from debug console.
