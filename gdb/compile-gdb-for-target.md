@@ -5,7 +5,7 @@
 Add to local.conf or to customized layer:
 
 ```bb
-EXTRA_IMAGE_FEATURES ?= "debug-tweaks dbg-pkgs tools-debug"
+EXTRA_IMAGE_FEATURES ?= "debug-tweaks dbg-pkgs tools-debug "
 ```
 
 build the prefered image like:
