@@ -17,4 +17,13 @@ to install all necessarry tools.
 - Open the file `./conf/local.conf` and modify it:
 ```bb
 MACHINE ??= "raspberrypi0-wifi"
+
+ENABLE_UART = "1"
+ENABLE_SPI_BUS = "1"
+ENABLE_I2C = "1"
+KERNEL_MODULE_AUTOLOAD:rpi += "i2c-dev i2c-bcm2708"
+
+EXTRA_IMAGE_FEATURES ?= "debug-tweaks dbg-pkgs tools-debug "
 ```
+
+- Bitbake it with: `bitbake rpi-test-image`.
