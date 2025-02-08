@@ -22,6 +22,7 @@ ENABLE_UART = "1"
 ENABLE_SPI_BUS = "1"
 ENABLE_I2C = "1"
 KERNEL_MODULE_AUTOLOAD:rpi += "i2c-dev i2c-bcm2708"
+LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
 
 EXTRA_IMAGE_FEATURES ?= "debug-tweaks dbg-pkgs tools-debug "
 ```
