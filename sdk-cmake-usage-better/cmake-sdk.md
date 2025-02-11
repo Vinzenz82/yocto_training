@@ -7,8 +7,8 @@ Add the configuration key:
 ```bb
 # generate cmake friendly sdk
 TOOLCHAIN_HOST_TASK:append = "${SDK_EXTRA_TOOLS}" 
-SDK_EXTRA_TOOLS = " nativesdk-cmake     "
 # add static libs to SDK
+SDK_EXTRA_TOOLS = " nativesdk-cmake     " 
 SDKIMAGE_FEATURES += " staticdev-pkgs"
 ```
 
