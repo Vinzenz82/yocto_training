@@ -1,4 +1,4 @@
-# Create ana Modify a new Layer
+# Create and Modify a new Layer
 
 ## Create
 
