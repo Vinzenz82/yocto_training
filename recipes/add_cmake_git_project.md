@@ -14,12 +14,11 @@ layer-custom
 |
 └───recipes-core
 │   │   
-│   │
 │   └───cmake-example
 │       │   bb-cmake-example_git.bb
 ```
 
-## Content of Files
+## Content of File
 
 ### bb-cmake-example_git.bb
 
