@@ -23,7 +23,7 @@ layer-custom
 |           |
 ```
 
-## Conent of Files
+## Content of Files
 
 ### add-custom-file.bb
 
