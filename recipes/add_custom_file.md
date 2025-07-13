@@ -55,7 +55,7 @@ do_install() {
     install -m 0755 custom-file.sh ${D}${prefix}
 }
 
-addtask display_banner before do_install
+addtask do_display_banner before do_install
 ```
 
 ### custom-file.sh
