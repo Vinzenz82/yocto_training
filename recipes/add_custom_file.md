@@ -67,7 +67,7 @@ echo "This is a custom bash script."
 
 ### Add Recipe to layer.conf
 
-layer.conf:
+custom-layer: layer.conf:
 
 ```b
 # append some recipes
