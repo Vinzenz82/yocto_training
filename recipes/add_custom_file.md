@@ -1,7 +1,7 @@
 # Add a Cutom File to the Image
 
 ## Create a new Layer
-[see doc](layers/create_new_layer.md)
+[see doc](../layers/create_new_layer.md)
 
 ## Create a new Recipe
 
