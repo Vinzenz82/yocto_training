@@ -9,4 +9,4 @@ call in a shell or script: <br>
 ## Compile
 
 call:
-`${CC} main.c`
+`${CC} main.c -Og -DEBUG -o main`
