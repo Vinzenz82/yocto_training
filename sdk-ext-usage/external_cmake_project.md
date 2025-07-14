@@ -20,6 +20,17 @@ Install: (this is a workspace and not a general system SDK)
 SDK environment now set up; additionally you may now run devtool to perform development tasks.
 Run devtool --help for further details.
 ```
+### Build Image
+
+```bash
+devtool build-image core-image-full-cmdline
+```
+
+### QEMU
+
+```bash
+devtool runqemu ./tmp/deploy/images/qemux86-64/core-image-full-cmdline-....rootfs.qemuboot.conf
+```
 
 ### Usage of CMAKE project from GitHub
 
