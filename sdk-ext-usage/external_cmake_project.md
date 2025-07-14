@@ -64,5 +64,5 @@ devtool build bb-cmake-example
 
 Deploy:
 ```bash
-devtool deploy-target bb-cmake-example root@192.168.1.211
+devtool deploy-target -s bb-cmake-example root@192.168.1.211
 ```
