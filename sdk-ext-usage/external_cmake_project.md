@@ -77,3 +77,9 @@ Deploy:
 ```bash
 devtool deploy-target -s bb-cmake-example root@192.168.1.211
 ```
+
+### Remove Recipe
+
+```bash
+devtool reset bb-cmake-example
+```
