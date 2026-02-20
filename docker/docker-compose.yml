@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  vscode:
+    build: .
+    container_name: vscode-container
+    ports:
+      - "8080:8080"
+    environment:
+      - PASSWORD=vscode123
+    volumes:
+      - ./workspace:/home/coder/workspace
+    restart: unless-stopped
